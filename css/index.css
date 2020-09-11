@@ -11,3 +11,11 @@
   width: 100%;
   height: auto;
 }
+* {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+h1,
+h6 {
+  color: white;
+}

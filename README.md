@@ -2,8 +2,7 @@
 
 A Quick drums made by me Enjoy
 
-[The App Link](https://drums-app.web.app/#)
+[The App Link](https://aakashcode12.github.io/DrumsWithJavascript/)
 
 
-IDK why on firebase and locally its working but not when deployed
-On github pages
+IDK why locally its working but not when deployed

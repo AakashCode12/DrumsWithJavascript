@@ -8,19 +8,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="/img/favicon.png">
 </head>
 
 <body>
-    <h1 class="display-3 text-center">The Drum Pad</h1>
+    <h1 class="display-5 text-center">The Drum Pad</h1>
     <h6 class="display-6 text-center">A 1 hour Project By Aakash</h6>
 
 
     <div class="container containertop">
         <div class="row">
             <div class="col-3">
-                <a href="#" onclick="chanchan1()">
-                    <img class="responsive" src="img/chanchan.png" alt="">
-                </a>
+                <img onclick="chanchan1()" class="responsive" src="img/chanchan.png" alt="">
             </div>
             <div class="col-3"><img class="responsive" onclick="tom1()" src="img/tom.png" alt=""></div>
             <div class="col-3"><img class="responsive" onclick="tom2()" src="img/tom.png" alt=""></div>
@@ -36,45 +35,8 @@
     </div>
 
     <!--Todo Script-->
-    <script>
-        var chanchan1kiawaz = new Audio("../Sounds/909-Crash-HD2.mp3");
+    <script src="/scripts/index.js">
 
-        function chanchan1() {
-            chanchan1kiawaz.play();
-        }
-
-
-        var chanchan2kiawaz = new Audio("../Sounds/909-Crash-HD0.mp3");
-
-        function chanchan2() {
-            chanchan2kiawaz.play();
-        }
-
-
-        var kick1kiawaz = new Audio("../Sounds/909-Kick-T0A0D0.mp3");
-
-        function kick1() {
-            kick1kiawaz.play();
-        }
-
-        var kick2kiawaz = new Audio("../Sounds/909-Kick-T0A0D3.mp3");
-
-        function kick2() {
-            kick2kiawaz.play();
-        }
-
-
-        var tom1kiawz = new Audio("../Sounds/909-HiHatClosed-D8.mp3");
-
-        function tom1() {
-            tom1kiawz.play();
-        }
-
-        var tom2kiawz = new Audio("../Sounds/909-HiTom-0D3.mp3");
-
-        function tom2() {
-            tom2kiawz.play();
-        }
     </script>
     <!--todo Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
